@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'donut-chart';
+@import 'linear-chart';
+@import 'slider'; 
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+} 
+
+.container{
+    width: 100vw; 
+    max-width: 1200px; 
+    margin: auto;
+}

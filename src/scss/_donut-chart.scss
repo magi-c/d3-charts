@@ -1,0 +1,34 @@
+.donut-chart{
+    &__title{
+        text-anchor: middle;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 17px;
+        fill: $grey;
+    }
+    &__subtitle{
+        text-anchor: middle;
+        text-anchor: middle;
+        font-size: 24px;
+        font-weight: 500;
+        fill:$grey-dark;
+    }
+    &_diameters{
+        stroke: $grey;
+    }
+    &__text{
+        &--category{
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+        &--percent{
+            fill:$grey-dark;
+        }
+        &--catValue{
+            fill: $grey;
+        }
+    }
+    tspan{
+        display:block;
+    }
+}
